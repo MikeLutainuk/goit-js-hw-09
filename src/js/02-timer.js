@@ -13,7 +13,7 @@ const refs = {
   seconds: document.querySelector('[data-seconds]'),
 }
     
-refs.startBtn.disabled = true;
+refs.startBtn.disabled = true; 
 let timerId = null;
 let ms = 0;
 
